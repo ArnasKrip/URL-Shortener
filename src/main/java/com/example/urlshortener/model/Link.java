@@ -29,7 +29,7 @@ public class Link {
     private long clickCount = 0;
     
     // JPA requires a no-arg constructor
-    protected Link() {}
+    public Link() {}
 
     public Long getId() { return id; }
     public String getCode() { return code; }
